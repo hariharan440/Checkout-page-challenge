@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="shortcut icon" href="./devchallenges.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Devchallenges</title>
+  </head>
+
+  <body>
+    <h1 class="heading">Checkout</h1>
+    <div class="main">
+      <div class="upper">
+        <div class="bag">
+          <div class="image"><img src="./photo1.png" class="pic" alt="" /></div>
+          <div class="content">
+            <p class="para">Vintage Backbag</p>
+            <p><span>$54.99</span> <span class="price"> $94.99</span></p>
+            <div class="btn">
+              <div class="sign">-</div>
+              <div>1</div>
+              <div class="sign">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="shoes">
+          <div class="image"><img src="./photo2.png" class="pic" alt="" /></div>
+          <div class="content">
+            <p class="para">Levi Shoes</p>
+            <p><span>$74.99</span> <span class="price"> $124.99</span></p>
+            <div class="btn">
+              <div class="sign">-</div>
+              <div>1</div>
+              <div class="sign">+</div>
+            </div>
+          </div>
+        </div>
+        <div class="info">
+          <hr />
+          <div class="article">
+            <div>Shipping</div>
+            <div>$19</div>
+          </div>
+          <hr />
+          <div class="article">
+            <div>Total</div>
+            <div>$148.98</div>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="contact">
+          <h1>Contact information</h1>
+          <label>E-mail</label>
+          <br />
+          <div class="input-icon">
+            <i class="fa fa-envelope icon"></i>
+            <input
+              type="text"
+              id="email"
+              class="input-field"
+              placeholder="Enter your email"
+            />
+          </div>
+          <br />
+          <label>Phone</label>
+          <br />
+          <div class="input-icon">
+            <i class="fa fa-phone icon"></i>
+            <input
+              type="tel"
+              id="mobile"
+              class="input-field"
+              placeholder="Enter your phone..."
+            />
+          </div>
+        </div>
+        <div class="shipping">
+          <h1>Shipping address</h1>
+          <label>Full Name</label>
+          <br />
+          <div class="input-icon">
+            <i class="fa fa-user icon"></i>
+            <input
+              type="text"
+              id="firstName"
+              class="input-field"
+              placeholder="Rodney Cotton"
+            />
+          </div>
+          <br />
+          <label>Adrdress</label>
+          <br />
+          <div class="input-icon">
+            <i class="fa fa-home icon"></i>
+            <input
+              type="text"
+              id="address"
+              class="input-field"
+              placeholder="Your address.."
+            />
+          </div>
+          <br />
+          <label>City</label>
+          <br />
+          <div class="input-icon">
+            <i class="fa fa-building icon"></i>
+            <input
+              type="text"
+              id="city"
+              class="input-field"
+              placeholder="Your city.."
+            />
+          </div>
+          <div class="lower-part">
+            <div class="country">
+              <label>Country</label>
+              <br />
+              <div class="field">
+                <i class="fa fa-building icons"></i>
+                <select>
+                  <option value="" disabled selected hidden>
+                    Your country..
+                  </option>
+                  <option>India</option>
+                  <option>Canada</option>
+                  <option>Switzerland</option>
+                </select>
+              </div>
+            </div>
+            <div class="code">
+              <label>Postal code</label>
+              <br />
+              <div class="input-icon">
+                <i class="fa fa-address-card card"></i>
+                <input
+                  type="text"
+                  id="postal-code"
+                  class="input"
+                  placeholder="Your code.."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" class="check" />
+            <label class="check-text"
+              >Save this information for next time</label
+            >
+          </div>
+          <div class="button">
+            <button id="btn" onclick="continue_Btn()">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
